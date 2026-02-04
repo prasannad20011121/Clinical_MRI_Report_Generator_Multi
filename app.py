@@ -14,12 +14,13 @@ from reportlab.lib.utils import ImageReader
 
 
 MODEL_LINKS = {
-    "main": "https://drive.google.com/file/d/1MrmfGNWW6Msz71WTcrCJcouk5vyDWhMq/view?usp=sharing",
-    "brain": "https://drive.google.com/file/d/1MFRWHTsp830qpVFm19x-74gQ3h6XsJ73/view?usp=sharing",
-    "bone": "https://drive.google.com/file/d/1cFVYwUz8rVqu6gjlMW-_wYoukyCpto5h/view?usp=sharing",
-    "breast": "https://drive.google.com/file/d/1aQ327zLaqHqKrw30qOXlOYPPW3NScFDU/view?usp=sharing",  
-    "kidney": "https://drive.google.com/file/d/1ZAmC8nssodO5IVWhUMpmpOxxdoIg1H2d/view?usp=sharing"   
+    "main": "https://drive.google.com/uc?export=download&id=1MrmfGNWW6Msz71WTcrCJcouk5vyDWhMq",
+    "brain": "https://drive.google.com/uc?export=download&id=1MFRWHTsp830qpVFm19x-74gQ3h6XsJ73",
+    "bone": "https://drive.google.com/uc?export=download&id=1cFVYwUz8rVqu6gjlMW-_wYoukyCpto5h",
+    "breast": "https://drive.google.com/uc?export=download&id=1aQ327zLaqHqKrw30qOXlOYPPW3NScFDU",
+    "kidney": "https://drive.google.com/uc?export=download&id=1ZAmC8nssodO5IVWhUMpmpOxxdoIg1H2d"
 }
+
 
 
 st.set_page_config(page_title="AI Medical Report Generator", layout="wide")
@@ -193,6 +194,7 @@ with col2:
 
 st.markdown("---")
 st.caption(" For educational use only. Consult a medical professional for diagnosis.")
+
 
 
 
