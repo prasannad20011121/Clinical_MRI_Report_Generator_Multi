@@ -14,11 +14,11 @@ from reportlab.lib.utils import ImageReader
 
 
 MODEL_LINKS = {
-    "main": "https://drive.google.com/uc?id=1MrmfGNWW6Msz71WTcrCJcouk5vyDWhMq",
-    "brain": "https://drive.google.com/uc?id=1MFRWHTsp830qpVFm19x-74gQ3h6XsJ73",
-    "bone": "https://drive.google.com/uc?id=1cFVYwUz8rV",
-    "breast": "https://drive.google.com/uc?id=1abcd123456789fakeID",  
-    "kidney": "https://drive.google.com/uc?id=1abcd987654321fakeID"   
+    "main": "https://drive.google.com/file/d/1MrmfGNWW6Msz71WTcrCJcouk5vyDWhMq/view?usp=drive_link",
+    "brain": "https://drive.google.com/file/d/1MFRWHTsp830qpVFm19x-74gQ3h6XsJ73/view?usp=drive_link",
+    "bone": "https://drive.google.com/file/d/1cFVYwUz8rVqu6gjlMW-_wYoukyCpto5h/view?usp=drive_link",
+    "breast": "https://drive.google.com/file/d/1aQ327zLaqHqKrw30qOXlOYPPW3NScFDU/view?usp=drive_link",  
+    "kidney": "https://drive.google.com/file/d/1ZAmC8nssodO5IVWhUMpmpOxxdoIg1H2d/view?usp=drive_link"   
 }
 
 
@@ -193,3 +193,4 @@ with col2:
 
 st.markdown("---")
 st.caption(" For educational use only. Consult a medical professional for diagnosis.")
+
